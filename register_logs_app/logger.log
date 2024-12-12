@@ -475,3 +475,41 @@
                 Name: Pedro,
                 Last name: Prado,
                 Email: pprado@mail.com
+12-Dec-24 11:15:54 - root - ERROR - [File: conexion.py: Line 34] - Message: Ocurrio un error al obtener el pool: connect() takes from 0 to 3 positional arguments but 5 were given
+12-Dec-24 11:19:52 - root - ERROR - [File: conexion.py: Line 34] - Message: Ocurrio un error al obtener el pool: connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+12-Dec-24 11:20:22 - root - DEBUG - [File: conexion.py: Line 31] - Message: Creacion del pool  Ok: <psycopg2.pool.SimpleConnectionPool object at 0x102d8f4d0>
+12-Dec-24 11:20:22 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102d8f610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:20:22 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102d8f760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:10 - root - DEBUG - [File: conexion.py: Line 31] - Message: Creacion del pool  exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x10a09b380>
+12-Dec-24 11:22:10 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10a09b4c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:10 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10a09b610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:10 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10a09b760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:10 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10a09b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:10 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10a09ba00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:17 - root - DEBUG - [File: conexion.py: Line 31] - Message: Creacion del pool  exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x10e62b380>
+12-Dec-24 11:22:17 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10e62b4c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:17 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10e62b610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:17 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10e62b760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:17 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10e62b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:22:17 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10e62ba00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:16 - root - DEBUG - [File: conexion.py: Line 31] - Message: Creacion del pool  exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x102f9b380>
+12-Dec-24 11:23:16 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102f9b4c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:16 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102f9b610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:16 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102f9b760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:16 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102f9b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:16 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x102f9ba00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 31] - Message: Creacion del pool  exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x10b2c3380>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10b2c34c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10b2c3610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10b2c3760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10b2c38b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10b2c3a00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:21 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x10b2c3b50; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:38 - root - DEBUG - [File: conexion.py: Line 31] - Message: Creacion del pool  exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x105893380>
+12-Dec-24 11:23:38 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x1058934c0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:38 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x105893610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:38 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x105893760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:38 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x1058938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12-Dec-24 11:23:38 - root - DEBUG - [File: conexion.py: Line 42] - Message: Conexion obtenida del pool: <connection object at 0x105893a00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
