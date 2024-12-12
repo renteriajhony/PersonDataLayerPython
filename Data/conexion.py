@@ -5,7 +5,7 @@ from psycopg2 import pool
 from logger_base import log
 
 
-class Conexion:
+class Connection:
     _DATABASE = 'test_db'
     _USERNAME = 'postgres'
     _PASSWORD = 'postgres'
@@ -16,7 +16,7 @@ class Conexion:
     _pool = None
 
     @classmethod
-    def getPool(cls):
+    def getConnectionPool(cls):
         if cls._pool is None:
             try:
                 cls._pool = pool.SimpleConnectionPool(
@@ -37,16 +37,25 @@ class Conexion:
             return cls._pool
 
     @classmethod
-    def getConexion(cls):
-        conexion = cls.getPool().getconn()
-        log.debug(f'Conexion obtenida del pool: {conexion}')
-        return conexion
+    def getConnection(cls):
+        connetion = cls.getConnectionPool().getconn()
+        log.debug(f'Connection obtenida del pool: {connetion}')
+        return connetion
 
+    @classmethod
+    def freeConnectionPool(cls, connection):
+        cls.getConnectionPool().putconn(connection)
+        log.debug(f'Regresamos la conexion al pool: {connection}')
+
+    @classmethod
+    def closeConnectionPool(cls):
+        cls.getConnectionPool().closeall()
 
 if __name__ == '__main__':
-    conexion1 = Conexion.getConexion()
-    conexion2 = Conexion.getConexion()
-    conexion3 = Conexion.getConexion()
-    conexion4 = Conexion.getConexion()
-    conexion5 = Conexion.getConexion()
-    conexion6 = Conexion.getConexion() # Falla porque supera el maximo de conexiones especificados
+    connetion1 = Connection.getConnection()
+    Connection.freeConnectionPool(connetion1)
+    connetion2 = Connection.getConnection()
+    connetion3 = Connection.getConnection()
+    connetion4 = Connection.getConnection()
+    connetion5 = Connection.getConnection()
+    connetion6 = Connection.getConnection() # Falla porque supera el maximo de connetiones especificados
