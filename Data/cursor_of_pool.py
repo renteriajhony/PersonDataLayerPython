@@ -26,4 +26,6 @@ class CursorOfPool:
         Connection.freeConnectionPool(self._connetion)
 
 if __name__ == '__main__':
-    pass
+    with CursorOfPool() as cursor:
+        cursor.execute('SELECT * FROM PUBLIC.PERSON')
+        print(cursor.fetchall())
