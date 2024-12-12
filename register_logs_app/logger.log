@@ -1,0 +1,477 @@
+11-Dec-24 21:07:28 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x106d97370; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:07:28 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x106d97370; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:30:09 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10cac3610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:30:09 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10cac3610; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:30:09 - root - DEBUG - [File: person_dao.py: Line 38] - Message: Person:
+                Id person: 1,
+                Name: Jhony,
+                Last name: Renteria,
+                Email: jrenteria@mail.com
+11-Dec-24 21:30:09 - root - DEBUG - [File: person_dao.py: Line 38] - Message: Person:
+                Id person: 2,
+                Name: Pedro,
+                Last name: Maturana,
+                Email: pmaturana@mail.com
+11-Dec-24 21:30:09 - root - DEBUG - [File: person_dao.py: Line 38] - Message: Person:
+                Id person: 3,
+                Name: Ana,
+                Last name: Rios,
+                Email: arios@mail.com
+11-Dec-24 21:30:09 - root - DEBUG - [File: person_dao.py: Line 38] - Message: Person:
+                Id person: 9,
+                Name: Juan,
+                Last name: Valdez,
+                Email: jvaldez@mail.com
+11-Dec-24 21:36:53 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10bf138b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:36:53 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10bf138b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:37:29 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x108c1f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:37:29 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x108c1f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:38:15 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x104a238b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:38:15 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x104a238b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:39:13 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x101b8f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:39:13 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x101b8f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:39:25 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x108f938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:39:25 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x108f938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:39:32 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x105e938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:39:32 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x105e938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:40:36 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x103a978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:40:36 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x103a978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:40:58 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1022938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:40:58 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1022938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:43:18 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x102bff8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:43:18 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x102bff8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:43:49 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x108f0b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:43:49 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x108f0b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:45:47 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1102978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:45:47 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x1102978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:45:47 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1102978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:46:39 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10a5978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:46:39 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10a5978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:46:39 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10a5978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:47:08 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10b4c38b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:47:08 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10b4c38b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:47:42 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10a8978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:47:42 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10a8978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:47:42 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10a8978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:49:13 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10759b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:50:04 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10199f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:50:04 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Mande,
+                Last name: mande,
+                Email: mande
+11-Dec-24 21:51:15 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10849f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:51:15 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: PEdro,
+                Last name: najera,
+                Email: pnajera
+11-Dec-24 21:51:15 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10849f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:51:15 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10849f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:52:08 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10c2ff8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: PEdro,
+                Last name: najera,
+                Email: pnajera
+11-Dec-24 21:52:08 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10c2ff8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:52:08 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10c2ff8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 1,
+                Name: Jhony,
+                Last name: Renteria,
+                Email: jrenteria@mail.com
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 2,
+                Name: Pedro,
+                Last name: Maturana,
+                Email: pmaturana@mail.com
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 3,
+                Name: Ana,
+                Last name: Rios,
+                Email: arios@mail.com
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 9,
+                Name: Juan,
+                Last name: Valdez,
+                Email: jvaldez@mail.com
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 13,
+                Name: Mande,
+                Last name: mande,
+                Email: mande
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 15,
+                Name: Mande,
+                Last name: mande,
+                Email: mande
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 16,
+                Name: Mande,
+                Last name: mande,
+                Email: mande
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 17,
+                Name: PEdro,
+                Last name: najera,
+                Email: pnajera
+11-Dec-24 21:52:08 - root - DEBUG - [File: person_dao.py: Line 49] - Message: Person:
+                Id person: 18,
+                Name: PEdro,
+                Last name: najera,
+                Email: pnajera
+11-Dec-24 21:57:53 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1044978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:57:53 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x1044978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:57:53 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1044978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:57:53 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 21:57:53 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 21:58:57 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10849b760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:58:57 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10849b760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 1,
+                Name: Jhony,
+                Last name: Renteria,
+                Email: jrenteria@mail.com
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 2,
+                Name: Pablo,
+                Last name: Perez,
+                Email: pperz@mail.com
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 3,
+                Name: Ninfa,
+                Last name: Narvaez,
+                Email: nnarvaez@mail.com
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 4,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 5,
+                Name: Jhony,
+                Last name: Renteria,
+                Email: jrenteria@mail.com
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 6,
+                Name: Pablo,
+                Last name: Perez,
+                Email: pperz@mail.com
+11-Dec-24 21:58:57 - root - DEBUG - [File: person_dao.py: Line 50] - Message: Person:
+                Id person: 7,
+                Name: Ninfa,
+                Last name: Narvaez,
+                Email: nnarvaez@mail.com
+11-Dec-24 21:59:28 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x106e9b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:59:28 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x106e9b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:59:28 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x106e9b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 21:59:28 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 21:59:28 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 22:01:12 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10ac9f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:01:12 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10ac9f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:01:12 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10ac9f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:01:12 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:01:12 - root - DEBUG - [File: person_dao.py: Line 47] - Message: Registros creados: 1
+11-Dec-24 22:01:12 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10ac9f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:03:23 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1043178b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:03:23 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x1043178b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:03:23 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1043178b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:03:23 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:03:23 - root - DEBUG - [File: person_dao.py: Line 47] - Message: Registros creados: 1
+11-Dec-24 22:03:23 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x1043178b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:04:19 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10ca038b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:06:22 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10279b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:06:42 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1041ef8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:07:05 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10179b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:07:05 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x10179b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:07:05 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10179b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:07:05 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:07:05 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 22:07:42 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1032978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:07:42 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1032978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:07:42 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:07:42 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 22:10:32 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1042f3df0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:10:32 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1042f3df0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:10:32 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:10:37 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 22:12:22 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1113f2e30; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:12:28 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x1113f2e30; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:12:28 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x1113f2e30; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:12:28 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:12:29 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 22:17:34 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x101daf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:17:34 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x101daf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:17:34 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x101daf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:17:34 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:17:34 - root - DEBUG - [File: person_dao.py: Line 46] - Message: Registros creados: 1
+11-Dec-24 22:18:13 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10659b370; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:18:13 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x10659b370; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:19:16 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x101aaf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:19:16 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x101aaf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:19:16 - root - DEBUG - [File: conexion.py: Line 37] - Message: Se abrió correctamente el cursor: <connection object at 0x101aaf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:19:16 - root - DEBUG - [File: person_dao.py: Line 18] - Message: Persona insertada: Person:
+                Id person: None,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:19:16 - root - DEBUG - [File: person_dao.py: Line 47] - Message: Registros creados: 1
+11-Dec-24 22:19:16 - root - DEBUG - [File: conexion.py: Line 29] - Message: Conexion ya fue establecida: <connection object at 0x101aaf8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:26:23 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x107bdf760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:26:23 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x107bdf760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:26:23 - root - DEBUG - [File: person_dao.py: Line 51] - Message: Person:
+                Id person: 2,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:26:23 - root - DEBUG - [File: person_dao.py: Line 51] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:26:23 - root - DEBUG - [File: person_dao.py: Line 51] - Message: Person:
+                Id person: 4,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:31:32 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1051ffa00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:31:32 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x1051ffa00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:31:32 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:31:32 - root - DEBUG - [File: person_dao.py: Line 56] - Message: Registros creados: 1
+11-Dec-24 22:34:13 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10759b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:34:13 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x10759b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:34:13 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:34:13 - root - DEBUG - [File: person_dao.py: Line 55] - Message: Registros actualizados: 1
+11-Dec-24 22:36:26 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1027cb8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:36:26 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x1027cb8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:36:26 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:36:26 - root - DEBUG - [File: person_dao.py: Line 55] - Message: Registros actualizados: 1
+11-Dec-24 22:37:10 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x105293760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:10 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x105293760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:10 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:10 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:10 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 4,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:30 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10a597760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:30 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x10a597760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:30 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:30 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:30 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 4,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:39 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x105197760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:39 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x105197760; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:39 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:39 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:39 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 4,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:50 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x102d9f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:50 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x102d9f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:37:50 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:37:50 - root - DEBUG - [File: person_dao.py: Line 55] - Message: Registros actualizados: 1
+11-Dec-24 22:41:19 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x107e978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:41:19 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x107e978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:41:19 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:41:19 - root - DEBUG - [File: person_dao.py: Line 55] - Message: Registros actualizados: 1
+11-Dec-24 22:45:02 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10581f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:45:02 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x10581f8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:45:02 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:45:02 - root - DEBUG - [File: person_dao.py: Line 55] - Message: Registros actualizados: 1
+11-Dec-24 22:45:02 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:45:02 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:45:02 - root - DEBUG - [File: person_dao.py: Line 59] - Message: Person:
+                Id person: 4,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:52:02 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x102fc38b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:52:02 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x102fc38b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:52:02 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:52:02 - root - DEBUG - [File: person_dao.py: Line 60] - Message: Registros actualizados: 1
+11-Dec-24 22:52:37 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x10a49b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:52:37 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x10a49b8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:52:37 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 4,
+                Name: None,
+                Last name: None,
+                Email: None
+11-Dec-24 22:52:37 - root - DEBUG - [File: person_dao.py: Line 64] - Message: Registros eliminadps: 1
+11-Dec-24 22:52:37 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:52:37 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:52:37 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 4,
+                Name: None,
+                Last name: None,
+                Email: None
+11-Dec-24 22:53:16 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1072eb8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:53:16 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x1072eb8b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:53:16 - root - DEBUG - [File: person_dao.py: Line 39] - Message: Persona actualizada: Person:
+                Id person: 4,
+                Name: None,
+                Last name: None,
+                Email: None
+11-Dec-24 22:53:16 - root - DEBUG - [File: person_dao.py: Line 64] - Message: Registros eliminadps: 1
+11-Dec-24 22:53:16 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:53:16 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:53:16 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 4,
+                Name: None,
+                Last name: None,
+                Email: None
+11-Dec-24 22:54:47 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1014938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:54:47 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x1014938b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:54:47 - root - DEBUG - [File: person_dao.py: Line 48] - Message: Persona eliminada: Person:
+                Id person: 4,
+                Name: None,
+                Last name: None,
+                Email: None
+11-Dec-24 22:54:47 - root - DEBUG - [File: person_dao.py: Line 64] - Message: Registros eliminadps: 1
+11-Dec-24 22:54:47 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:54:47 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:55:04 - root - DEBUG - [File: conexion.py: Line 23] - Message: Conexion a base de datos exitosa: <connection object at 0x1012978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:55:04 - root - DEBUG - [File: conexion.py: Line 36] - Message: Se abrió correctamente el cursor: <connection object at 0x1012978b0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+11-Dec-24 22:55:04 - root - DEBUG - [File: person_dao.py: Line 48] - Message: Persona eliminada: Person:
+                Id person: 4,
+                Name: None,
+                Last name: None,
+                Email: None
+11-Dec-24 22:55:04 - root - DEBUG - [File: person_dao.py: Line 64] - Message: Registros eliminados: 0
+11-Dec-24 22:55:04 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 2,
+                Name: Juan,
+                Last name: Prado,
+                Email: pprado@mail.com
+11-Dec-24 22:55:04 - root - DEBUG - [File: person_dao.py: Line 68] - Message: Person:
+                Id person: 3,
+                Name: Pedro,
+                Last name: Prado,
+                Email: pprado@mail.com
