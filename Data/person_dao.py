@@ -1,4 +1,4 @@
-from Data.conexion import Conexion
+from Data.cursor_of_pool import CursorOfPool
 from Data.person import Person
 from logger_base import log
 
@@ -11,55 +11,51 @@ class PersonDAO:
 
     @classmethod
     def createPerson(cls, person: Person):
-        with Conexion.getConexion():
-            with Conexion.getCursor() as cursor:
-                values = (person.name, person.last_name, person.email)
-                cursor.execute(cls._INSERT, values)
-                log.debug(f'Persona insertada: {person}')
-                return cursor.rowcount
+        with CursorOfPool() as cursor:
+            values = (person.name, person.last_name, person.email)
+            cursor.execute(cls._INSERT, values)
+            log.debug(f'Persona insertada: {person}')
+            return cursor.rowcount
 
     @classmethod
     def readPerson(cls):
-        with Conexion.getConexion() as conexion:
-            with conexion.cursor() as cursor:
-                cursor.execute(cls._SELECT)
-                records = cursor.fetchall()
-                personList: [Person] = []
-                for record in records:
-                    person = Person(record[0], record[1], record[2], record[3])
-                    personList.append(person)
-                return personList
+        with CursorOfPool() as cursor:
+            cursor.execute(cls._SELECT)
+            records = cursor.fetchall()
+            personList: [Person] = []
+            for record in records:
+                person = Person(record[0], record[1], record[2], record[3])
+                personList.append(person)
+            return personList
 
     @classmethod
     def updatePerson(cls, person: Person):
-        with Conexion.getConexion():
-            with Conexion.getCursor() as cursor:
-                values = (person.name, person.last_name, person.email, person.id_person)
-                cursor.execute(cls._UPDATE, values)
-                log.debug(f'Persona actualizada: {person}')
-                return cursor.rowcount
+        with CursorOfPool() as cursor:
+            values = (person.name, person.last_name, person.email, person.id_person)
+            cursor.execute(cls._UPDATE, values)
+            log.debug(f'Persona actualizada: {person}')
+            return cursor.rowcount
 
     @classmethod
     def deletePerson(cls, person: Person):
-        with Conexion.getConexion():
-            with Conexion.getCursor() as cursor:
-                values = (person.id_person,)
-                cursor.execute(cls._DELETE, values)
-                log.debug(f'Persona eliminada: {person}')
-                return cursor.rowcount
+        with CursorOfPool() as cursor:
+            values = (person.id_person,)
+            cursor.execute(cls._DELETE, values)
+            log.debug(f'Persona eliminada: {person}')
+            return cursor.rowcount
 
 
 if __name__ == '__main__':
 
-    # person = Person(name='Pedro', last_name='Prado', email='pprado@mail.com')
-    # registers = PersonDAO.createPerson(person)
-    # log.debug(f'Registros creados: {registers}')
+    person = Person(name='Manuel', last_name='Garcia', email='mgarcia@mail.com')
+    registers = PersonDAO.createPerson(person)
+    log.debug(f'Registros creados: {registers}')
 
-    # person = Person(name='Juan', last_name='Prado', email='pprado@mail.com', id_person=2)
-    # registers = PersonDAO.updatePerson(person)
-    # log.debug(f'Registros actualizados: {registers}')
+    person = Person(name='Pablo', last_name='Prado', email='pprado@mail.com', id_person=2)
+    registers = PersonDAO.updatePerson(person)
+    log.debug(f'Registros actualizados: {registers}')
 
-    person = Person(id_person=4)
+    person = Person(id_person=5)
     registers = PersonDAO.deletePerson(person)
     log.debug(f'Registros eliminados: {registers}')
 
